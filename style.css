@@ -39,11 +39,26 @@ body{
 }
 
 .message{
-    margin-top: 5vmin;
+    margin-bottom: 5vmin;
     height: 12vmin;
     font-size: 4vmin;
     color: #000022;
     border: 2px solid #000022;
     border-radius: 14px;
     padding: 8px;
+}
+
+a{
+    text-decoration: none;
+    background: -webkit-linear-gradient(#000022, #185b5a,#000022);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 3px solid #000022;
+    height: 9vmin;
+    margin-top: 5vmin;
+    font-size: 5vmin;
+    padding: 1vmin;
+    border-radius: 35px;
+    font-weight: bolder;
 }
